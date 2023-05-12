@@ -47,17 +47,19 @@ header a {
 }
 
 .home-title {
-    color: white;
+    color:#081C15;
     font-family: 'Libre Baskerville', 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
 h4 {
     color: #081C15;
     font-family: 'Libre Baskerville', 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
 .book, .join {
-    background: white;
+    background-color: #40916c;
     color:#081C15;    
     font-family: 'Libre Baskerville', 'Times New Roman', Times, serif;
     text-decoration: none;
