@@ -9,6 +9,7 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover {
@@ -28,12 +29,20 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
 }
 
 body {
     background-color: white;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -49,7 +58,9 @@ header a {
 .home-title {
     color:#081C15;
     font-family: 'Libre Baskerville', 'Times New Roman', Times, serif;
+    font-size: 2em;
     text-align: center;
+    margin-top: 10px;
 }
 
 h4 {
@@ -62,7 +73,11 @@ h4 {
     background-color: #40916c;
     color:#081C15;    
     font-family: 'Libre Baskerville', 'Times New Roman', Times, serif;
+    font-size: 18px;
     text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -72,8 +87,19 @@ h4 {
 
 .msg {
     color: white;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
     background-color: #1b4332;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+h2 {
+    margin: 0;
 }
 
 .msg h2 {
@@ -82,24 +108,25 @@ h4 {
     background-color: #1b4332;
 }
 
-/* .msg p { */
-    
-
-/* } */
-
 footer {
     text-align: center;
     color: white;
     background-color:#1b4332;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
+    margin-top: 200px;
+    padding: 25px 50px;
 }
 
-footer a{
+footer a {
     color: white;
     background-color:#1b4332;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
     text-decoration: none;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 footer a:hover {
@@ -119,11 +146,23 @@ footer p a:hover {
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
     width: 100%
 }
 
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #081C15;
+}
