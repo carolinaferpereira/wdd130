@@ -364,7 +364,7 @@ form li + li {
 }
 
 /* This label is affecting the FAQ page !!!!!!!!!!!!*/ 
-label {
+.contact_label {
     /* To make sure that all labels have the same size and are properly aligned */
     display: inline-block;
     width: 90px;
