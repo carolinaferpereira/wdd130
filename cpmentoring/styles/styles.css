@@ -395,6 +395,7 @@ input[id=tab4]:checked ~ .slider{
 .home-grid p{
     text-align: justify;
     font-size: 1em;
+    width: 90%;
 }
 
 /* About Me Subpage */
