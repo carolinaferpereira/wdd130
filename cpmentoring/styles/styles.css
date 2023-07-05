@@ -242,8 +242,6 @@ footer p a:hover {
 }
 
 .testimonials{
-    /* changed width 1080px to 100% */
-    /* width: 100%; */
     width: 1080px;
     grid-row: 2/3;
     grid-column: 2/10;
@@ -325,7 +323,7 @@ input[id=tab4]:checked ~ .slider{
     color:#020132;
     font-size: 1em;
     text-align: justify;
-    width: 90%
+    /* width: 100% */
 }
 
 .card-img {
