@@ -557,7 +557,7 @@ form li + li {
 input,
 textarea {
     /* To make sure that all text fields have the same font settings By default, textareas have a monospace font */
-    font: 1em sans-serif;
+    font: 1em "open sans", sans-serif;
     /* To give the same size to all text fields */
     width: 300px;
     box-sizing: border-box; /* To harmonize the look & feel of text field border */
@@ -588,7 +588,7 @@ button {
     margin-left: 0.5em;
 }
 #feedback {
-    background-color: #40916c;
+    background-color:#6773FC;
     color: white;
     position: absolute;
     top: 0;
@@ -601,6 +601,7 @@ button {
 .moveDown {
     margin-top: 3em;
 }
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
